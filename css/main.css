@@ -54,9 +54,6 @@ html, body {;
 
 
 
-
-
-
 .container-header {;
     display: flex;
     justify-content: space-around;
@@ -69,13 +66,23 @@ html, body {;
   display: inline-block;
   margin-top: -5px;
 }
-#menu-toggle {display: none;}
-.label-toggle {display: none;}
-.menu .active {;
-    color: black;;
-    border-bottom: 5px solid green;
+#menu-toggle {
+  display: none;
+  
 }
 
+.label-toggle {
+  display: none;
+  
+}
+
+.menu .active {;
+    color: black;;
+    border-bottom: 5px solid #b1d539;
+}
+@media screen and (max-width: 768px) {
+  
+}
 
 
 .container-content__gray {
