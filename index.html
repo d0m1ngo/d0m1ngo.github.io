@@ -6,34 +6,35 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <script src="./js/index.js" ></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
 <div class="container">
-  
+
   <header class="container-header">
     <nav class='container-main__menu'>
     <img src="./img/logo.jpg" alt="" id='logo'>
-  <nav class="main_menu">
-    <input type="checkbox" id="menu-toggle">
-      <label for="menu-toggle" class="label-toggle"></label>
-</input>
+  <nav class="main_menu" id='menu'>
+  </input>
     <ul class="menu">
       <li class='active'>HOME</li>
       <li>SERVICES</li>
       <li>TRAINING COURSES</li>
       <li>BLOG</li>
       <li>CONTACTS</li>
-    </ul>
+      </ul>
   </nav>
+  <i class="fa fa-bars" aria-hidden="true" id='icon' onclick="myFunction()"></i>
+
   </nav>
   </header>
-  
+
   <div class="container-content">
   <div class="container-content__img">
     <img src="./img/slogan.jpeg" alt="" id='slogan'>
   </div>
-  
+
   <div class="container-content__gray">
     <div class="container-content__gray-info">
       <div class="advices"></div>
@@ -51,7 +52,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="container-content__family">
     <div class="family">
     <div class="family-picture">

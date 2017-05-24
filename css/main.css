@@ -34,11 +34,6 @@ html {;
   text-decoration: none;
   list-style: none;
 }
-.menu ul {
-  display: flex;
-  justify-content: space-between !important;
-  width: 50%;
-}
 .menu li {
   display: inline-block;
   color: gray;
@@ -52,65 +47,58 @@ html {;
 #menu-toggle {
   display: none;
 }
-/*.menu {*/
 
-/*.menu > li {;*/
-/*    ;*/
-/*    */
-/*}*/
-/*.container-header {;*/
-/*    display: flex;*/
-/*    justify-content: space-around;*/
-    /*margin: 0 auto;*/
-    /*min-width: 696px;*/
-/*}*/
-/*#logo{*/
-/*  margin-top: -5px;*/
-/*}*/
-/*#menu-toggle {*/
-/*  display: none;*/
-/*}*/
+#icon {;
+    display: none;
 
-/*.label-toggle {*/
-/*  display: none;*/
-/*}*/
-/*.menu .active {;*/
-/*    color: black;;*/
-/*    border-bottom: 5px solid #b1d539;*/
-/*}*/
-/*@media screen and (max-width: 768px) {*/
-/*  nav ul {*/
-/*  display: block;*/
-/*  height: 0;*/
-/*  list-style-type: none;*/
-/*  opacity: 0;*/
-/*  text-align: center;*/
-/*  transition: all 1s ease;*/
-/*  width: 100%;*/
-/*  visibility: hidden;*/
-/*}*/
-/*#menu-toggle:checked ~ ul {*/
-/*      opacity: 1;*/
-/*      height: 100vh;*/
-/*      visibility: visible;*/
-/*    }*/
+}
 
-/* .label-toggle {*/
-/*      background: black; //Gradient Hamburger*/
-/*      cursor: pointer;*/
-/*      display: block;*/
-/*      height: 35px;*/
-/*      margin-top: 1em;*/
-/*      width: 35px;*/
-/*    }*/
-/*    .container-main_menu {*/
-/*      display: block;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 860px) {
 
-#slogan {
-  height: auto;
-  max-width: 100%;
+
+.menu .active {;
+    border-bottom: 0;;
+    padding: ;
+
+}
+
+
+
+.menu {;
+    display: block;
+
+}
+
+
+
+.menu li  {;
+    display: block;
+
+}
+
+
+
+.container-main__menu  {;
+    display: block;
+
+}
+
+
+
+#icon {;
+    font-size: 15px;
+
+}
+
+}
+
+
+
+
+#slogan {;
+    height: auto;;
+    max-width: 100%;
+
 }
 .container-content__gray {
   background-color: rgb(246, 246, 246);
