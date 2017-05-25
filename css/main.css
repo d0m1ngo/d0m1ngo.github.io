@@ -55,17 +55,17 @@ html {;
 
 @media screen and (max-width: 860px) {
 
-
-.menu .active {;
-    border-bottom: 0;;
-    padding: ;
+#logo {;
+    display: block;;
+    margin: 0 auto;
 
 }
 
 
 
 .menu {;
-    display: block;
+    display: block;;
+    text-align: center;
 
 }
 
