@@ -83,10 +83,22 @@ html {;
 
 }
 
+.container-content__gray {;
+    display: flex;;
+    flex-direction: column;
+
+}
 
 
-#icon {;
-    font-size: 15px;
+.container-content__gray-info {;
+    margin: auto;;
+    flex-direction: column;
+
+}
+
+
+.advice {;
+    max-width: 100%;
 
 }
 
@@ -100,9 +112,13 @@ html {;
     max-width: 100%;
 
 }
+#girl-image{
+  height: auto;
+  max-width: 100%;
+  margin-top: 87px;
+}
 .container-content__gray {
   background-color: rgb(246, 246, 246);
-  height: 500px;
   margin: auto;
   margin-top: -6px;
 }
