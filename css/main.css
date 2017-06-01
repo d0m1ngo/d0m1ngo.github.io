@@ -129,28 +129,44 @@ html {;
  height: 439px;
 }
 
+.hypno-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /*width: 1020px;*/
+  /*height: : 313px;*/
+  
+}
+.hypno h1 {
+  color: black;
+}
+.hypno-div h2 {
+  color : #A2B856;
+}
 .hypno-1 {
   margin-left: 100px;
 }
 .hypno-3 {
   margin-right: 100px;
 }
+.hypno-text {
+  width: 400px;
+  padding: 0 40px;
+  /*position: absolute;*/
+}
 
 .hypno-text p {
-  font-size: 8px;
+  font-size: 1.2rem;
+  color: #8E8E8E;
 }
 .hypno-text h2 {
   font-size: 14px;
-  
 }
 .text-hypno {
   text-align: center;
   font-size: 21px;
 }
-.hypno-div {
-  display: flex;
-  justify-content: center;
-}
+
 .container-content__green {
   height: 600px;
   background-color: #A3C83A;
