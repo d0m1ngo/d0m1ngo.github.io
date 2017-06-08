@@ -336,7 +336,31 @@ color: #D2D2D2;
 .hypno-text h2 {
   font-size: 0.9em;
 }
-
+.advices-block {
+  position:relative;
+  width:90px;
+  height: 90px;
+  /*padding:1em 1.5em;*/
+  margin:0 26px 0 0;
+  color:#fff;
+  background:#97C02F;
+}
+.advices-block:after {
+    content:"";
+    position:absolute;
+    right:0;
+    bottom: 0;
+    border-top: 20px solid #B1D541;
+    border-right: 20px solid #F3F5F6 ;
+    display:block; 
+    width:0; 
+}
+.advices-maintext {
+  font-size: 0.5em;
+}
+.advices-text {
+  font-size:0.6em;
+}
 #family {
   height: auto;
   max-width: 70%;
@@ -365,7 +389,13 @@ color: #D2D2D2;
    margin-left: -17px;
 
 }
-
+.family-text {
+  padding-top: 70px;
+  max-width: 443px;
+  padding-left: 15px;
+  color:#8E8E8E;
+  font-size: 0.7em;
+}
 
 .advices {;
     max-width: 33%;
