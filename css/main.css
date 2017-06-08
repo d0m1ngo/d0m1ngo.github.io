@@ -115,10 +115,10 @@ html {;
 /*  padding: 0px 15px;*/
 /*  color: #E4F4CE;*/
 /*}*/
-.advices-block .advices-maintext {
-  color : #FDFEF5;
-  font-size: 1.2rem;
-}
+/*.advices-block .advices-maintext {*/
+/*  color : #FDFEF5;*/
+/*  font-size: 1.2rem;*/
+/*}*/
 
 .container-content__family {
   display: flex;
@@ -164,10 +164,10 @@ html {;
   color : #A2B856;
 }
 .hypno-1 {
-  margin-left: 100px;
+  margin-left: 80px;
 }
 .hypno-3 {
-  margin-right: 100px;
+  margin-right: 8px;
 }
 .hypno-text {
   min-width: 130px;
@@ -330,20 +330,33 @@ color: #D2D2D2;
   height: 380px;
 }
 .hypno-text p {
-  font-size: 0.8em;
+  font-size: 0.45em;
   color: #8E8E8E;
 }
+.hypno-text {
+  min-width: 100px;
+  padding: 0 10px;
+  /*position: absolute;*/
+}
+
+.hypno-1 {
+  margin-left: 0px;
+}
+.hypno-3 {
+  margin-right: 0px;
+}
 .hypno-text h2 {
-  font-size: 0.9em;
+  font-size: 0.5em;
 }
 .advices-block {
   position:relative;
   width:90px;
   height: 90px;
   /*padding:1em 1.5em;*/
-  margin:0 26px 0 0;
+  margin: 7px;
   color:#fff;
   background:#97C02F;
+  font-size: 0.6em;
 }
 .advices-block:after {
     content:"";
@@ -355,15 +368,10 @@ color: #D2D2D2;
     display:block; 
     width:0; 
 }
-.advices-maintext {
-  font-size: 0.5em;
-}
-.advices-text {
-  font-size:0.6em;
-}
+
 #family {
   height: auto;
-  max-width: 70%;
+  max-width: 60%;
 }
 .family-text {
   max-width: 443px;
@@ -378,6 +386,27 @@ color: #D2D2D2;
 
 .family-text h2 {
   color: black;
+}
+.greenblock-content {
+  font-size: 0.55em;
+  position:relative;
+  width:448px;
+  height: 200px;
+  /*padding:1em 1.5em;*/
+  /*margin:2em auto;*/
+  margin: 5px;
+  color:black;
+  background:white;
+}
+.greenblock-content:after {
+  content:"";
+  position:absolute;
+  right:0;
+  bottom: 0;
+  border-top: 20px solid #97C02F;
+  border-right: 20px solid #A3C83A ;
+  display:block; 
+  width:0; 
 }
 
 
@@ -412,18 +441,32 @@ color: #D2D2D2;
     
   
 }
-.whiteblock {
-  max-width: 70%;
-  align-self: center;
-  margin-left: 15vw;
+/*.whiteblock {*/
+/*  max-width: 70%;*/
+/*  align-self: center;*/
+/*  margin-left: 15vw;*/
+/*}*/
+
+.feedback {
+  position:relative;
+  width:150px;
+  height: 120px;
+  padding:1em 1.5em;
+  margin: 5px;
+  color:#fff;
+  background:#9CC038;
+  font-size: 0.7em;
+}
+.feedback:after {
+  content:"";
+  position:absolute;
+  right:0;
+  bottom: 0;
+  border-top: 25px solid #B1D541;
+  border-right: 25px solid #FFFFFF ;
+  display:block; width:0;
 }
 
-.conrainer-feedback {
-  
-}
-.feedback {
-  max-width: 39%;
-}
 #last {
   align-self: center;
   padding-left: 25vw;
