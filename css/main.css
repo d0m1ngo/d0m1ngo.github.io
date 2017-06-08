@@ -238,10 +238,27 @@ html {;
   align-items: center;
   height: 450px;
 }
+/*.feedback {*/
+/*  padding: 0 15px;*/
+/*}*/
 .feedback {
-  padding: 0 15px;
+  position:relative;
+  width:291px;
+  height: 210px;
+  padding:1em 1.5em;
+  margin-right: 35px;
+  color:#fff;
+  background:#9CC038;
 }
-
+.feedback:after {
+  content:"";
+  position:absolute;
+  right:0;
+  bottom: 0;
+  border-top: 50px solid #B1D541;
+  border-right: 50px solid #FFFFFF ;
+  display:block; width:0;
+}
 .main-footer {
   background-color: rgb(246, 246, 246);
   height: 490px;
