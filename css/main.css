@@ -71,31 +71,50 @@ html {;
 }
 .container-content__gray {
   background-color: rgb(246, 246, 246);
-  margin: auto;
+  /*margin: auto;*/
   margin-top: -6px;
   display: flex;
   justify-content: center;
   align-items: center;
   height:400px;
 }
-.advices {;
-   padding-right: 15px;
-   height: 180px;
-   width: 180px;
-   position: relative;
+/*.advices {;*/
+/*   padding-right: 15px;*/
+/*   height: 180px;*/
+/*   width: 180px;*/
+/*   position: relative;*/
    /*overflow: visible;*/
-}
-.advices img {
-  height:180px;
-  width: 180px;
-  position: absolute;
-}
+/*}*/
 .advices-block {
-  position: absolute;
-  font-size: 0.8rem;
-  padding: 0px 15px;
-  color: #E4F4CE;
+  position:relative;
+  width:180px;
+  padding:1em 1.5em;
+  margin:0 26px 0 0;
+  color:#fff;
+  background:#97C02F;
 }
+.advices-block:after {
+    content:"";
+    position:absolute;
+    right:0;
+    bottom: 0;
+    border-top: 50px solid #B1D541;
+    border-right: 50px solid #F3F5F6 ;
+    display:block; 
+    width:0; 
+}
+
+/*.advices img {*/
+/*  height:180px;*/
+/*  width: 180px;*/
+/*  position: absolute;*/
+/*}*/
+/*.advices-block {*/
+/*  position: absolute;*/
+/*  font-size: 0.8rem;*/
+/*  padding: 0px 15px;*/
+/*  color: #E4F4CE;*/
+/*}*/
 .advices-block .advices-maintext {
   color : #FDFEF5;
   font-size: 1.2rem;
@@ -175,20 +194,41 @@ html {;
   justify-content: center;
   align-items: center;
 }
-.green-block {
-  position: relative;
-  height: 323px;
-  width: 448px;
-  padding: 15px;
-}
-.green-block img {
-  position: absolute;
-  height: 323px;
-  width: 448px;
-}
+/*.green-block {*/
+/*  position: relative;*/
+/*  height: 323px;*/
+/*  width: 448px;*/
+/*  padding: 15px;*/
+/*}*/
+/*.green-block img {*/
+/*  position: absolute;*/
+/*  height: 323px;*/
+/*  width: 448px;*/
+/*}*/
+/*.greenblock-content {*/
+/*  position: absolute;*/
+/*  padding: 0 15px;*/
+/*}*/
 .greenblock-content {
-  position: absolute;
-  padding: 0 15px;
+  
+  position:relative;
+  width:448px;
+  height: 323px;
+  padding:1em 1.5em;
+  /*margin:2em auto;*/
+  margin-right: 24px;
+  color:black;
+  background:white;
+}
+.greenblock-content:after {
+  content:"";
+  position:absolute;
+  right:0;
+  bottom: 0;
+  border-top: 50px solid #97C02F;
+  border-right: 50px solid #A3C83A ;
+  display:block; 
+  width:0; 
 }
 
 
