@@ -148,13 +148,45 @@ html {;
 
 
 
-
+.container-content {
+  background-image: url("../img/slogan2.jpeg");
+  height: 450px;
+  position: relative;
+}
 
 
 #slogan {;
     height: auto;
     max-width: 100%;
-
+    position: relative;
+    
+}
+.sloganblock {
+  
+  position:relative;
+  width:348px;
+  height: 250px;
+  padding:1em 1.5em;
+  /*margin:2em auto;*/
+  margin-right: 24px;
+  color:black;
+  background:white;
+  left: 60%;
+  top: 15%;
+}
+.sloganblock:after {
+  content:"";
+  position:absolute;
+  right:0;
+  bottom: 0;
+  border-top: 30px solid #97C02F;
+  border-right: 30px solid #D6E1B7 ;
+  display:block; 
+  width:0; 
+}
+.container-content__girl {
+  background-image: url("../img/girl2.jpeg");
+  height:460px;
 }
 #girl-image{
   height: auto;
