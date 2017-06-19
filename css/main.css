@@ -21,4 +21,6 @@ html {;
 
 
 
-
+body {
+  background-image: url(../img/BackGround.jpg);
+}
