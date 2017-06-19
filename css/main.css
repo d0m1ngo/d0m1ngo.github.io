@@ -169,8 +169,8 @@ html {;
 .sloganblock {
   
   position:relative;
-  width:400px;
-  height: 400px;
+  width:20vw;
+  height: 15vw;
   padding:1em 1.5em;
   /*margin:2em auto;*/
   margin-right: 24px;
@@ -201,8 +201,8 @@ html {;
 }
 .girl-contentblock {
   position:relative;
-  width:400px;
-  height: 400px;
+  width:20vw;
+  height: 15vw;
   padding:1em 1.5em;
   margin:0 26px 0 0;
   color:#fff;
@@ -215,8 +215,9 @@ html {;
     position:absolute;
     right:0;
     bottom: 0;
+    background-color: inherit;
     border-top: 50px solid #B1D541;
-    border-right: 50px solid #8FAA99 ;
+    border-right: 50px solid transparent ;
     display:block; 
     width:0; 
 }
