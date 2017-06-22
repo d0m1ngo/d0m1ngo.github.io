@@ -33,10 +33,10 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 100px auto;
     border: 5px solid white;
-    height: 1000px;
+    height: 2000px;
     
 }
 .border {
@@ -68,8 +68,8 @@ body {
     font-size: 14px;
     font-weight: bold;
     background-color: white;
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     /*float: left;*/
     text-align: center;
     vertical-align: middle;
@@ -83,7 +83,7 @@ body {
     background-color: #f4e842 !important;
 }
 .logo {
-    height: 160px;
+    height: 180px;
     background-color: black;
     color: white;
     font-size: 50px;
@@ -94,6 +94,14 @@ body {
     height: auto;
     display: block;
 }
-.col-lg-6 {
-    /*padding-left: 0 !important;*/
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.img-3 {
+    width: 287px;
+    height: 300px;
 }
