@@ -36,7 +36,7 @@ body {
     max-width: 1200px;
     margin: 100px auto;
     border: 5px solid white;
-    height: 2000px;
+    height: 2300px;
     
 }
 .border {
@@ -103,5 +103,38 @@ body {
 
 .img-3 {
     width: 287px;
-    height: 300px;
+    height: 287px;
+}
+.second-container__autoservice {
+    background-color: yellow;
+    color: black;
+    height: 287px;
+    
+}
+.second-container__best {
+    background-color: black;
+    color: yellow;
+    height: 287px;
+}
+.third-container__quality {
+    background-color: white;
+    height: 618px;
+    color: black;
+}
+.prices {
+    color:black;
+    background-color: yellow;
+    height: 287px;
+}
+.button {
+      background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
