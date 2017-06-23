@@ -36,7 +36,7 @@ body {
     max-width: 1200px;
     margin: 100px auto;
     border: 5px solid white;
-    height: 2300px;
+    height: 2500px;
     
 }
 .border {
@@ -137,4 +137,10 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.footer-firstcontainer__testimonials {
+    height: 450px;
+    background-color: yellow;
+    color: black;
 }
