@@ -14,6 +14,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  
 }
 
 ::-moz-selection {
@@ -35,13 +36,12 @@ body {
 .container {
     max-width: 1200px;
     margin: 100px auto;
-    border: 5px solid white;
+    /*border: 5px solid white;*/
     height: 2460px;
     
 }
 .border {
     border: 5px solid white;
- 
 }
 /*.navigation {*/
 /*    height: 166px;*/
@@ -75,18 +75,39 @@ body {
     vertical-align: middle;
     /*margin-left: -15px;*/
     /*border:1px solid black;*/
+    font-size: 16px;
 }
 .navigation__nav > li:nth-child(odd) {
-    background-color: gray;
+    background-color: #ECECEC;
 }
 .active {
-    background-color: #f4e842 !important;
+    background-color: #FEDE00 !important;
 }
 .logo {
     height: 180px;
     background-color: black;
     color: white;
     font-size: 50px;
+}
+.span-text:first-child {
+    color: #FEDE00;
+   
+    
+}
+.span-text {
+    display:block;
+    width:100px;
+    /*height: 100%;*/
+    margin: 0 auto;
+    font-size: 54px;
+    font-weight: 700;
+}
+.span-text-2 {
+    display:block;
+    width:170px;
+    /*height: 100%;*/
+    margin: 0 auto;
+     font-family: 'Raleway', sans-serif;
 }
 
 .img-responsive {
@@ -144,7 +165,7 @@ body {
 }
 
 .footer-firstcontainer__testimonials {
-    height: 468px;
+    height: 473px;
     background-color: yellow;
     color: black;
 }
