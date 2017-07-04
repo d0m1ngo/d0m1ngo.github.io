@@ -141,6 +141,8 @@ body {
     background-color: white;
     height: 612px;
     color: black;
+    text-align: center;
+    padding: 15px;
 }
 .prices {
     color:black;
