@@ -65,8 +65,7 @@ body {
     /*display: inline-block;*/
     display: table-cell;
     color: black;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 18px;
     background-color: white;
     width: 180px;
     height: 180px;
@@ -75,7 +74,8 @@ body {
     vertical-align: middle;
     /*margin-left: -15px;*/
     /*border:1px solid black;*/
-    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 700;
 }
 .navigation__nav > li:nth-child(odd) {
     background-color: #ECECEC;
@@ -101,6 +101,7 @@ body {
     margin: 0 auto;
     font-size: 54px;
     font-weight: 700;
+    font-family: 'Roboto';
 }
 .span-text-2 {
     display:block;
@@ -126,29 +127,52 @@ body {
     width: 287px;
     height: 287px;
 }
+.first-container__solution {
+    background-color: #FFFFFF;
+    color: #212121;
+    height: 297px;
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Roboto';
+}
+.first-container__text {
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.first-container__text > h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 50px;
+}
 .second-container__autoservice {
-    background-color: yellow;
+    background-color: #FEDE00;
     color: black;
     height: 297px;
+    font-family: 'Roboto';
     
 }
 .second-container__best {
     background-color: black;
-    color: yellow;
+    color: #FEDE00;
     height: 297px;
+    text-align: center;
+    font-family: 'Roboto';
 }
 .third-container__quality {
     background-color: white;
-    height: 612px;
+    height: 622px;
     color: black;
     text-align: center;
     padding: 15px;
+    font-family: 'Roboto';
 }
 .prices {
     color:black;
-    background-color: yellow;
-    height: 287px;
-    border: 0.5px solid gray;
+    background-color: #FEDE00;
+    height: 296px;
+    
 }
 .button {
       background-color: black;
@@ -168,8 +192,9 @@ body {
 
 .footer-firstcontainer__testimonials {
     height: 473px;
-    background-color: yellow;
+    background-color: #FEDE00;
     color: black;
+    font-family: 'Roboto';
 }
 .footer > li{
     list-style: none;
@@ -183,11 +208,14 @@ body {
     /*float: left;*/
     text-align: center;
     /*vertical-align: middle;*/
+    font-family: 'Roboto';
 }
 .footer-container {
     background-color: white;
     height: 518px;
     color: black;
+    text-align: center;
+    font-family: 'Roboto';
 }
 .footer-second {
     background-color: green;
