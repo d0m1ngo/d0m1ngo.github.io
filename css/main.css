@@ -85,7 +85,7 @@ body {
 }
 .logo {
     height: 180px;
-    background-color: black;
+    background-color: #191819;
     color: white;
     font-size: 50px;
 }
@@ -98,8 +98,9 @@ body {
     display:block;
     width:100px;
     /*height: 100%;*/
-    margin: 0 auto;
-    font-size: 54px;
+    margin: 20px auto 0 auto;
+    height: 60px;
+    font-size: 64px;
     font-weight: 700;
     font-family: 'Roboto';
 }
@@ -109,6 +110,8 @@ body {
     /*height: 100%;*/
     margin: 0 auto;
      font-family: 'Raleway', sans-serif;
+     font-size: 58px;
+     font-weight: 400 !important;
 }
 
 .img-responsive {
@@ -151,6 +154,20 @@ body {
     color: black;
     height: 297px;
     font-family: 'Roboto';
+    text-align: center;
+    font-size: 1vw;
+    
+}
+.second-container__autoservice > h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.second-container__autoservice > h2:nth-child(2) {
+    
+    font-size: 60px;
     
 }
 .second-container__best {
@@ -261,4 +278,43 @@ body {
     font-size: 3.5vw;
 }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hvr-icon-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  padding-right: 2.2em;
+}
+.hvr-icon-fade:before {
+  content: "\f00c";
+  position: absolute;
+  right: 1em;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+.hvr-icon-fade:hover:before, .hvr-icon-fade:focus:before, .hvr-icon-fade:active:before {
+  color: #0F9E5E;
 }
