@@ -159,14 +159,14 @@ body {
     
 }
 .second-container__autoservice > h2 {
-    margin-top: 0 !important;
+    /*margin-top: 0 !important;*/
     margin-bottom: 0;
     font-weight: 300;
     font-size: 40px;
     text-transform: uppercase;
 }
 .second-container__autoservice > h2:nth-child(2) {
-    
+    margin-top: 0 !important;
     font-size: 60px;
     
 }
