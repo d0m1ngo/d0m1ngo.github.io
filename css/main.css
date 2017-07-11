@@ -114,6 +114,36 @@ body {
      font-weight: 400 !important;
 }
 
+
+
+    
+    .icon-chevron {
+    	position: relative;
+  
+    }
+    .icon-chevron:after {
+        content: '';
+    	z-index:5;
+    	position:absolute;
+    	bottom:0;
+        right:20px;
+    	height: 20px;
+    	width: 20px;
+    	background-image: url('../icons/left-chevron.svg')
+        
+    }
+    
+    .icon-chevron:before {
+    	content: '';
+    	z-index: 5;
+    	position:absolute;
+    	bottom:0;
+        right:0;
+    	height: 20px;
+    	width: 20px;
+    	background-image: url('../icons/right-chevron.svg');
+    }
+
 .img-responsive {
     width: 100%;
     height: auto;
