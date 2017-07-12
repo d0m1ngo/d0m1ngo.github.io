@@ -293,13 +293,17 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
 }
+.footer-icons:nth-child(2) {
+    margin-right: -1px;
+}
 .footer-icon {
     height: 60px;
     
 }
 .icon-1 {
-    margin-right: -4px;
+    margin-right: -5px;
 }
+
 
 @media screen and (max-width: 480px) {
    .navigation__nav > li {
