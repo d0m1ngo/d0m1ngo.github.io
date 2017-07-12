@@ -30,12 +30,16 @@ html {
 
 
 body {
-  background-image: url(../img/pexels-photo-313543.jpeg);
+ background-color: #d1d4d6;
 }
-
+#background-img {
+     background-image: url(../img/pexels-photo-313543.jpeg) !important;
+     background-repeat: no-repeat !important;
+}
 .container {
+    padding-top: 100px;
     max-width: 1200px;
-    margin: 100px auto;
+    margin: 0 auto;
     /*border: 5px solid white;*/
     height: 2460px;
     
