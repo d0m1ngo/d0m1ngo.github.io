@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="css/bootstrap-3-grid.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-       
+        
         
     </head>
     <body>
@@ -159,7 +159,7 @@
                     nihil .</p>
                     <a href="#" class="button">Read More</a>
                       </div>
-                      <div class="row col-lg-6 footer-second no-padding"></div>
+                      <div class="row col-lg-6 footer-second no-padding" id="googleMap"></div>
                       <div class="policy col-lg-12 no-padding">
                           <div class="private-policy">Car repair @ 2015 Privicy policy</div>
                           <div class="footer-icons">
@@ -173,6 +173,16 @@
                   
               </div>
       </div>
+        <script>
+        function myMap() {
+        var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz4lPCx9lEKIectkaT_eew_YyITQB7s6c&callback=myMap"></script>
     </body>
 
 </html>
