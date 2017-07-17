@@ -118,7 +118,16 @@ body {
      font-weight: 400 !important;
 }
 
-
+.container__prosolution {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Align height */
+}
+.container_bestimg {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Align height */
+}
 
     
     .icon-chevron {
@@ -228,7 +237,7 @@ body {
     
 }
 .button {
-      background-color: black;
+    background-color: black;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -238,6 +247,11 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+.button:hover {
+    background-color: #dbf6ff;
+    transition-duration: 0.3s;
+    color: black;
 }
 .footer {
     margin-top: 0px;
@@ -275,6 +289,7 @@ body {
     color: black;
     text-align: center;
     font-family: 'Roboto';
+    margin-top: -15px;
 }
 .footer-second {
     
@@ -320,6 +335,14 @@ body {
 
 
 @media screen and (max-width: 480px) {
+    .container {
+    padding-top:0px;
+    max-width:100%;
+    margin: 0 auto;
+    /*border: 5px solid white;*/
+    height: 2460px;
+    }
+    
    .navigation__nav > li {
    /*display: inline-block;*/
     /*display: inline-block;*/
@@ -338,14 +361,7 @@ body {
 .navigation__nav  ul {
     width: 100%;
 }
-.first-container__solution {
-    background-color: #FFFFFF;
-    color: #212121;
-    height: 100%;
-    font-size: 3.1vw;
-    text-align: center;
-    font-family: 'Roboto';
-}
+
 .first-container__text {
     /*margin-top: 5vw;*/
     text-align: center;
@@ -357,15 +373,7 @@ body {
     font-weight: 800;
     font-size: 6.65vw;
 }
-.second-container__autoservice {
-    background-color: #FEDE00;
-    color: black;
-    height: 297px;
-    font-family: 'Roboto';
-    text-align: center;
-    font-size: 1vw;
-    
-}
+
 .second-container__autoservice > h2 {
     /*margin-top: 0 !important;*/
     margin-bottom: 0;
@@ -412,7 +420,71 @@ body {
 }
 }
 
+/* tablet */
+@media screen and (min-width: 1024px) and (max-width: 1240px)  {
+    .container {
+    padding-top:0px;
+    max-width:100%;
+    margin: 0 auto;
+    /*border: 5px solid white;*/
+    height: 2460px;
+    }
+    .second-container__autoservice > h2 {
+    margin-top: 0;
+}
+.second-container__best {
+    height: auto;
+}
 
+
+.third-container__quality > h2 {
+    margin-top: 0;
+}
+
+.prices > h2 {
+    margin-top: 0;
+}
+.footer-container > h2 {
+    margin-top: 0;
+}
+
+
+
+
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+    padding-top: 0px;
+    max-width:100%;
+    margin: 0 auto;
+    /*border: 5px solid white;*/
+    height: 2460px;
+    }
+    
+   .second-container__autoservice > h2 {
+    margin-top: 0;
+}
+.second-container__best {
+    height: auto;
+}
+
+
+.third-container__quality > h2 {
+    margin-top: 0;
+}
+
+.prices > h2 {
+    margin-top: 0;
+}
+.footer-container > h2 {
+    margin-top: 0;
+}
+
+
+}
 
 
 
