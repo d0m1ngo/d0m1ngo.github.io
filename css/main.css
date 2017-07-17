@@ -330,7 +330,14 @@ body {
     vertical-align: middle;
     height: 100%;
 }
-
+.icon-1:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.footer-icon:nth-child(2):hover {
+    background-color: #FEDE00;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 480px) {
     .container {
