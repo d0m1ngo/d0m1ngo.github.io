@@ -367,7 +367,14 @@ body {
 .navigation__nav  ul {
     width: 100%;
 }
-
+.footer-container {
+    background-color: white;
+    height: 100%;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto';
+    margin-top: -15px;
+}
 .first-container__text {
     /*margin-top: 5vw;*/
     text-align: center;
@@ -418,7 +425,7 @@ body {
 }
 
 .private-policy {
-    font-size: 14px;
+    font-size: 10px;
 }
 
 /*.footer-container p {*/
