@@ -80,6 +80,7 @@ body {
     /*border:1px solid black;*/
     font-family: 'Roboto';
     font-weight: 700;
+    cursor: pointer;
 }
 .navigation__nav > li:nth-child(odd) {
     background-color: #ECECEC;
