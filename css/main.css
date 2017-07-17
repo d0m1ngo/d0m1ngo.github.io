@@ -439,7 +439,15 @@ body {
 /*    font-size: 13px;*/
 /*}*/
 }
-
+.private-policy {
+    float: left;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: 'Roboto';
+    color: #cecccc;
+    font-weight: 400;
+}
 /* tablet */
 @media screen and (min-width: 1024px) and (max-width: 1240px)  {
     .container {
