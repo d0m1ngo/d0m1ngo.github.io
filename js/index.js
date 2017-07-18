@@ -1,8 +1,14 @@
-function myFunction() {
-    var x = document.getElementById("menu");
-    if (x.className === "main_menu") {
-        x.className += " responsive";
-    } else {
-        x.className = "main_menu";
-    }
-}
+// $(".slider").slick({
+//     autoplay: true,
+//     dots: true,
+//     responsive: [{ 
+//         breakpoint: 500,
+//         settings: {
+//             dots: false,
+//             arrows: false,
+//             infinite: false,
+//             slidesToShow: 2,
+//             slidesToScroll: 2
+//         } 
+//     }]
+// });

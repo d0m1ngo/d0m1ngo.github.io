@@ -282,6 +282,7 @@ body {
     font-family: 'Roboto';
     text-transform: uppercase;
 }
+
 .footer-container {
     background-color: white;
     height: 518px;
@@ -297,8 +298,9 @@ body {
 }
 .policy {
     background-color: #fff;
-    height: 60px;
+    height: 58px;
     margin-top: -18px;
+    margin-right: 3px
 }
 .private-policy {
     float: left;
@@ -316,9 +318,10 @@ body {
 }
 .footer-icons:nth-child(2) {
     margin-right: -1px;
+    padding-right: 5px;
 }
 .footer-icon {
-    height: 60px;
+    height: 58px;
     
 }
 .icon-1 {
@@ -595,3 +598,36 @@ body {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
+
+
+
+
+
+
+
+/*.slider {*/
+/*    width: auto;*/
+/*    margin: 30px 50px 50px;*/
+/*}*/
+
+/*.slick-slide {*/
+/*    background: black;*/
+/*    color: white;*/
+/*    padding: 40px 0;*/
+/*    font-size: 30px;*/
+/*    font-family: "Arial", "Helvetica";*/
+/*    text-align: center;*/
+/*}*/
+
+/*.slick-prev:before, */
+/*.slick-next:before {*/
+/*    color: black;    */
+/*}*/
+
+/*.slick-dots {*/
+/*    bottom: -10px;*/
+/*}*/
+
+/*.slick-slide:nth-child(odd) {*/
+/*     background: green;*/
+/*}*/
