@@ -402,11 +402,19 @@ body {
     text-align: center;
     
 }
+.first-container__solution {
+    display:table-cell;
+    vertical-align:middle;
+}
 .first-container__text > h2 {
     margin-top: 0 !important;
     margin-bottom: 0;
     font-weight: 800;
     font-size: 6.65vw;
+}
+.second-container__autoservice {
+    display:table-cell;
+    vertical-align:middle;
 }
 
 .second-container__autoservice > h2 {
@@ -425,7 +433,16 @@ body {
 /*    margin-top: 0;*/
 /*}*/
 .second-container__best {
-    height: auto;
+
+    display:table-cell;
+    vertical-align:middle;   
+}
+.second-container__best > h2 {
+
+}
+.prices {
+    display:table-cell;
+    vertical-align:middle;
 }
 /*.second-container__best  p {*/
 /*    font-size: 3.8vw;*/
@@ -443,9 +460,12 @@ body {
     margin-top: 0;
 }
 .footer-container > h2 {
-    margin-top: 0;
+    margin-top: 30px;
+    
 }
-
+.footer-container a.button {
+    margin-bottom: 20px;
+}
 .private-policy {
     font-size: 10px;
 }
