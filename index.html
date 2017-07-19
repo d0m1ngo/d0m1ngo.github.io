@@ -47,8 +47,8 @@
                   <div class="col-lg-6 main-car no-padding slider">
                       <!--<div class="icon-chevron">-->
                     <img  class= "img-responsive no-padding car" src="./img/pexels-photo-305070.jpeg "></img>
-                  <!--</div>-->
-                    <img class="img-responsive no-padding" src="./img/light-car-inside-black.jpg"></img>
+                     <img class="img-responsive no-padding" src="./img/pexels-photo-120049.jpeg"></img>
+                
                   </div>
                 
                   <div class="col-lg-6">
@@ -231,15 +231,17 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
     <script >
       $(".slider").slick({
-        autoplay: true,
+        autoplay: false,
+        nextArrow: '<img class="next" src="icons/right-chevron.svg"></img>',
+        prevArrow: '<img class="prev" src="icons/left-chevron.svg"></img>',
         responsive: [{ 
             breakpoint: 500,
             settings: {
                 dots: false,
                 arrows: false,
                 infinite: false,
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 1,
+                slidesToScroll: 1
             } 
         }]
       });
