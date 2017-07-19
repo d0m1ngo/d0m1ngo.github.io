@@ -659,6 +659,7 @@ body {
     bottom: 0;
     right: 0;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .next {
@@ -668,4 +669,5 @@ body {
     z-index: 1;
     bottom: 0;
     right:0;
+    cursor: pointer;
 }
