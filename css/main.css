@@ -307,10 +307,11 @@ body {
     text-align: center;
     font-family: 'Roboto';
    
-    display: flex;
-    flex-direction: column;
-      align-items: center;
-      justify-content: center;
+   /*padding: 20px;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*  align-items: center;*/
+    /*  justify-content: center;*/
 }
 .footer-second {
     
@@ -496,6 +497,7 @@ body {
 }
 .footer-container > h2 {
     margin-top: 10px;
+    padding-top: 20px;
     
 }
 .footer-container a.button {
@@ -539,6 +541,7 @@ body {
         height: 100%;
     }
     .footer-container {
+        margin-top: -14px;
         height: 100%;
         padding-top: 15px;
         padding-bottom: 15px;
