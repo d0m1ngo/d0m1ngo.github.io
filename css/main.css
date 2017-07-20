@@ -375,7 +375,7 @@ body {
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .container {
     padding-top:0px;
     max-width:100%;
@@ -424,14 +424,17 @@ body {
 }
 .first-container__text {
     /*margin-top: 5vw;*/
+    margin-top: 10px;
     text-align: center;
+    margin-bottom: 10px;
     
 }
 .first-container__solution {
     display: flex;
     flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 .first-container__text > h2 {
     margin-top: 0 !important;
@@ -440,11 +443,13 @@ body {
     font-size: 6.65vw;
 }
 .second-container__autoservice {
-    display:table-cell;
-    vertical-align:middle;
+
+    height: 100%;
+   
 }
 
 .second-container__autoservice > h2 {
+    padding-top: 10px;
     margin-top: 0 !important;
     margin-bottom: 0;
     font-weight: 300;
@@ -460,7 +465,7 @@ body {
 /*    margin-top: 0;*/
 /*}*/
 .second-container__best {
-
+    height: 100%;
     display:table-cell;
     vertical-align:middle;   
 }
@@ -468,26 +473,29 @@ body {
 
 }
 .prices {
-    /*display:table-cell;*/
-    /*vertical-align:middle;*/
+    
 }
-/*.second-container__best  p {*/
-/*    font-size: 3.8vw;*/
-/*}*/
-/*.second-container__best  h2 {*/
-/*    font-size: 4.9vw;*/
-/*}*/
+
+.third-container__quality {
+    height: 100%;
+}
 .third-container__quality > h2 {
     margin-top: 0;
 }
 /*.third-container__quality > p {*/
 /*    font-size: 3.5vw;*/
 /*}*/
+.prices {
+    height: 100%;
+}
 .prices > h2 {
-    margin-top: 0;
+    margin-top: 10px
+}
+.footer-container {
+    height: 100%;
 }
 .footer-container > h2 {
-    margin-top: 30px;
+    margin-top: 10px;
     
 }
 .footer-container a.button {
@@ -512,91 +520,30 @@ body {
 }
 /* tablet */
 
-@media screen and (min-width: 1024px) and (max-width: 1240px)  {
-    .container {
-    padding-top:0px;
-    max-width:100%;
-    margin: 0 auto;
-    /*border: 5px solid white;*/
-    height: 2460px;
-    }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     .second-container__autoservice > h2 {
-    margin-top: 0;
-}
-.second-container__best {
-    height: auto;
-}
-.second-container__autoservice {
-    display:table-cell;
-    vertical-align:middle;
-}
-
-.third-container__quality > h2 {
-    margin-top: 0;
-}
-
-.prices > h2 {
-    margin-top: 0;
-}
-.footer-container > h2 {
-    margin-top: 0;
-}
-
-.third-container__quality {
-      display: flex;
-    flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-
-    
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .container {
-    padding-top: 0px;
-    max-width:100%;
-    margin: 0 auto;
-    /*border: 5px solid white;*/
-    height: 2460px;
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .third-container__quality {
+        height: 100%;
+        
+    }
+    .third-container__quality > h2 {
+        margin-top: 0px;
+    }
+    .prices {
+        height: 100%;
     }
     .second-container__autoservice {
-    display:table-cell;
-    vertical-align:middle;
+        height: 100%;
+    }
+    .footer-container {
+        height: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
-   .second-container__autoservice > h2 {
-    margin-top: 0;
-}
-.second-container__best {
-    height: auto;
-}
-
-
-.third-container__quality > h2 {
-    margin-top: 0;
-}
-
-.prices > h2 {
-    margin-top: 0;
-}
-.footer-container > h2 {
-    margin-top: 0;
-}
-
-.third-container__quality {
-      display: flex;
-    flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-}
-
-
-
-
 
 
 
@@ -696,6 +643,7 @@ body {
 
 
 .prev {
+    
     width: 20px;
     height: 20px;
     position: absolute;
@@ -705,7 +653,14 @@ body {
     margin-right: 20px;
     cursor: pointer;
 }
-
+.prev:hover {
+    background-image: url("../icons/left-chevron.svg");
+    background-color: white;
+}
+.next:hover {
+    background-image: url("./icons/right-chevron-white.svg");
+    background-color: white;
+}
 .next {
     width: 20px;
     height: 20px;
