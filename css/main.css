@@ -30,7 +30,84 @@ html {
 
 
 body {
- 
+ width: 0px;
+}
+.padding-off {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.container__inner {   
+    width: 1920px;
+    background-color: #2F3237;
+    height: 72px;
+    
+}
+
+.container__header {
+    width: 960px;
+    display: flex;
+    align-items: center;
+      
+}
+
+.header {
+    width: 1000px;
+    height: 72px;
+    margin: 0 auto;
+    
+}
+.header__logo {
+    color: white;
+}
+.header__logo>h1 {
+    display: inline;
+    font-size: 78px;
+}
+.header__logo>p {
+    display: inline;
+}
+.header__nav {
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    display: table-row;
+    
+}
+.header__nav > li {
+    display: table-cell;
+    width: 80px;
+    /*padding-left: 20px;*/
+    height: 72px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #63B8BD !important;
+  color: white;
 }
 
 
