@@ -61,9 +61,18 @@ body {
 .header__logo {
     color: white;
 }
+.i:before {
+  content: "ı";
+  position: absolute; 
+  color:white;
+}
+.i {
+    color: #63B8BD;
+}
 .header__logo>h1 {
     display: inline;
-    font-size: 78px;
+    font-size: 60px;
+    font-family: 'Roboto';
 }
 .header__logo>p {
     display: inline;
