@@ -37,9 +37,9 @@
     </head>
     <body>
  
-     <div class="container">
-     <div class="container__inner row">
-          <header class="header container__header col-xl-12 col-lg-12">
+     <div class="container-fluid padding-off">
+     <div class="container__inner row padding-off">
+          <header class="header container__header ">
            <div class="header__logo col-xl-5 col-lg-5">
             <h1>G<span class="i">i</span>TEX</h1>
             <p>Financial Advisor</p>
@@ -52,8 +52,13 @@
             <li class="hvr-fade">CONTACTS</li>
            </ul>
            </header>
-    
           </div>
+       <div class="container__carousel row">
+                 <div class=" slider">
+                 <img class="img-responsive" src="./img/finance1.jpeg"></img>
+                 <img class="img-responsive" src="./img/finance2.jpeg"></img>
+               </div>   
+               </div>
     </div>
   
     
@@ -108,27 +113,27 @@
     
     
     
-    <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz4lPCx9lEKIectkaT_eew_YyITQB7s6c&callback=initMap"></script>-->
-    <!--<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>-->
-    <!--<script type="text/javascript" src="Bootstrap Carousel/bootstrap/js/bootstrap.min.js"></script>-->
-    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>-->
-   
-     <!--  $(".slider").slick({-->
-     <!--    autoplay: false,-->
-     <!--    nextArrow: '<img class="next" src="icons/right-chevron.svg"></img>',-->
-     <!--    prevArrow: '<img class="prev" src="icons/left-chevron-black.svg"></img>',-->
-     <!--    responsive: [{ -->
-     <!--        breakpoint: 500,-->
-     <!--        settings: {-->
-     <!--            dots: false,-->
-     <!--            arrows: false,-->
- <!--            infinite: true,-->
-     <!--            slidesToShow: 1,-->
-     <!--            slidesToScroll: 1-->
-     <!--        } -->
-     <!--    }]-->
-     <!--  });-->
-     <!--</script>-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz4lPCx9lEKIectkaT_eew_YyITQB7s6c&callback=initMap"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="Bootstrap Carousel/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+   <script>
+       $(".slider").slick({
+         autoplay: false,
+         // nextArrow: '<img class="next" src="icons/right-chevron.svg"></img>',
+         // prevArrow: '<img class="prev" src="icons/left-chevron-black.svg"></img>',
+         responsive: [{ 
+             breakpoint: 500,
+             settings: {
+                 dots: false,
+                 arrows: true,
+             infinite: true,
+                 slidesToShow: 1,
+                 slidesToScroll: 1
+             } 
+         }]
+       });
+     </script>
    
     </body>
 
