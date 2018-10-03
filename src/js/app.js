@@ -17,7 +17,7 @@ $(document).ready(function () {
 	renderPerson();
 
 	$(document).keydown(function (e) {
-
+		console.log(currPos);
 		left = $(".block").position().left;
 		top = $(".block").position().top;
 		switch (e.key) {
@@ -122,6 +122,7 @@ $(document).ready(function () {
 	})
 
 	function createMaze(arr) {
+		let currPos = { x: 1, y: 1 };
 		let newArr = [...arr];
 		for (let i = 1; i < newArr.length - 1; i++) {
 			for (let k = 1; k < newArr.length - 1; k++) {
@@ -130,9 +131,8 @@ $(document).ready(function () {
 				if (number != 1 && number % 2 === 0) {
 					newArr[i][number] = 2;
 					let random = Math.floor(Math.random() * 7) + 1;
-					console.log(random);
 					newArr[i][random] = 0;
-
+					console.log(newArr);
 				}
 
 			}
