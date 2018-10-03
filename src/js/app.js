@@ -122,7 +122,7 @@ $(document).ready(function () {
 	})
 
 	function createMaze(arr) {
-		let currPos = { x: 1, y: 1 };
+		currPos = { x: 1, y: 1 };
 		let newArr = [...arr];
 		for (let i = 1; i < newArr.length - 1; i++) {
 			for (let k = 1; k < newArr.length - 1; k++) {
@@ -132,7 +132,6 @@ $(document).ready(function () {
 					newArr[i][number] = 2;
 					let random = Math.floor(Math.random() * 7) + 1;
 					newArr[i][random] = 0;
-					console.log(newArr);
 				}
 
 			}
