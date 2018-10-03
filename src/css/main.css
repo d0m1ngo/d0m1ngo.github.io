@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.board {
+        display: flex;
+        flex-wrap: wrap;
+		width: 450px;
+		height: 450px;
+		background: #ccc;
+		position: relative;
+	}
+	
+.cell {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+}	
+.block { 
+
+		position: relative;
+		width: 20px;
+		height: 20px;
+		left: 15px; 
+		top: 15px;
+}
+
+.person {
+	width: 20px;
+	height: 20px;
+}
+.border {
+	visibility: hidden;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.button {
+	margin: 20px;
+	background: none;
+	padding: 20px;
+	border: 1px solid #000000;
+	cursor: pointer;
+
+}
+.mazecell {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+}
+
+.brick {
+	width: 50px;
+    height: 50px;
+}
